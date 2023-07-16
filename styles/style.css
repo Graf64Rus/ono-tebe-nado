@@ -20,7 +20,7 @@ body {
   justify-items: center;
   align-items: center;
   align-content: space-between;
-  margin-top: 92px;
+  margin-top: 46px;
   margin-bottom: 46px;
   padding-left: 50px;
   padding-right: 50px;
@@ -406,7 +406,7 @@ body {
   
 }
 .footer {
-  margin-bottom: 90px;
+  margin-bottom: 45px;
   padding-left: 50px;
   padding-right: 50px;
   display: grid;
