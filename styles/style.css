@@ -13,8 +13,8 @@
   justify-items: self-end;
   align-items: center;
   align-content: space-between;
-  margin-top: 45px;
-  margin-bottom: 46px;
+  margin-top: 42px;
+  margin-bottom: 47px;
   padding: 50px;
 }
 
@@ -376,7 +376,7 @@ p:first-child {
   min-height: 97px;
   width: 100%;
   padding: 50px;
-  padding-bottom: 55px;
+  margin-bottom: 60px;
 }
 
 .footer__addres {
