@@ -1,7 +1,4 @@
-body {
-  background-color: #fff;
-  z-index: -1;
-}
+
 
 .page {
   margin: 0 auto;
@@ -18,8 +15,7 @@ body {
   align-content: space-between;
   margin-top: 45px;
   margin-bottom: 46px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 50px;
 }
 
 .header__menu {
@@ -64,12 +60,12 @@ body {
   text-align: start;
 }
 
-.header_address {
+.header__address {
   display: flex;
   padding-right: 50px;
 }
 
-.address_text {
+.address__text {
   padding-right: 50px;
   white-space: nowrap;
 }
@@ -98,7 +94,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
   margin: 0;
-  padding: 0;
+  padding: 50px;
   inset: 0;
 }
 
@@ -176,7 +172,7 @@ body {
 
 .bet-button {
   width: 257px;
-  height: 52px;
+  min-height: 52px;
   border: 1px solid #fff;
   color: #fff;
   text-align: center;
@@ -191,13 +187,12 @@ body {
 
 .lots {
   display: block;
-  padding-left: 55px;
-  padding-right: 50px;
   width: 100%;
   margin-top: 128px;
+  padding: 50px;
 }
 
-.lots_heading {
+.lots__heading {
   color: #000;
   font-family: Raleway;
   font-size: 40px;
@@ -235,6 +230,9 @@ body {
   position: relative;
   text-align: center;
   box-sizing: border-box;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card__title {
@@ -276,23 +274,14 @@ body {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  max-width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .lots__look-more-link {
@@ -313,6 +302,7 @@ body {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr auto;
+  padding: 50px;
 }
 
 .about__column {
@@ -342,7 +332,7 @@ body {
   padding-left: 120px;
 }
 
-.about_title {
+.about__title {
   color: #000;
   font-family: Raleway;
   font-size: 40px;
@@ -353,7 +343,7 @@ body {
   text-align: start;
 }
 
-.about_text {
+.about__text {
   color: #000;
   font-family: Raleway;
   font-size: 20px;
@@ -362,9 +352,13 @@ body {
   line-height: normal;
   text-align: start;
   padding-top: 100px;
+  
+}
+p:first-child {
+  margin-bottom: 25px;
 }
 
-.about_text_2 {
+.about__text_2 {
   color: #000;
   font-family: Raleway;
   font-size: 20px;
@@ -376,16 +370,16 @@ body {
 }
 
 .footer {
-  padding-left: 50px;
-  padding-right: 50px;
   display: grid;
   margin-top: 80px;
   grid-template-columns: repeat(3, 1fr);
   min-height: 97px;
   width: 100%;
+  padding: 50px;
+  padding-bottom: 55px;
 }
 
-.footer_addres {
+.footer__addres {
   display: flex;
 }
 
@@ -412,7 +406,7 @@ body {
   line-height: normal;
 }
 
-.footer__link-active {
+.footer_link-active {
   color: #000;
   text-align: center;
   font-family: Raleway;
@@ -451,10 +445,4 @@ body {
   height: 48px;
 }
 
-.header,
-.lots,
-.about,
-.overlay,
-.footer {
-  padding: 50px;
-}
+
